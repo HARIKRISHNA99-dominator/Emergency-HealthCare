@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp">
+
+        <EditText
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/simonetta"
+            android:id="@+id/phone"
+            android:layout_marginLeft="65dp"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:layout_width="297dp"
+            android:hint="ENTER PHONE NUMBER" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/simonetta"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/simonetta"
+            android:text="DELETE"/>
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/simonetta"
+            android:text="VIEW"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TO DELETE A NUMBER PLEASE CHECK ON DELETE BUTTON"
+        android:textAlignment="center"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/simonetta"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+       />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
